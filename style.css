@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #33ff33;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+  
+  .terminal {
+    padding: 20px;
+    white-space: pre-wrap;
+  }
+  
+  .typing {
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-right: 2px solid #33ff33;
+    }
+  }
